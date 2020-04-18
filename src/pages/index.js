@@ -8,7 +8,7 @@ import ColumnFour from "../components/column-four"
 
 export default () => <div>
      <div className={styles.header} >  <Header /> </div>
-     <div>
+     <div style={{textAlign:"center"}}>
    <p>  श्रीगुरु चरन सरोज रज निज मनु मुकुरु सुधारि । </p>
  <p>बरनउँ रघुबर बिमल जसु जो दायकु फल चारि ॥ </p>
 
@@ -21,7 +21,7 @@ export default () => <div>
        <div> <ColumnThree /> </div>
        <div> <ColumnFour /> </div>
     </div>
-    <div>
+    <div style={{textAlign:"center"}}>
   <p>  पवन तनय संकट हरन, मंगल मूरति रूप। </p>
 <p>राम लखन सीता सहित, हृदय बसहु सुर भूप॥ </p>
     </div>
